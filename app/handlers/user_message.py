@@ -24,8 +24,8 @@ from app.filters.user_filter import start_user
 user = Router()
 
 
-Configuration.account_id = 1012748
-Configuration.secret_key = "test_MbOgnH624LCJuYZwksDGxl6lDUz4oH3VLYq1tHWON4Y"
+Configuration.account_id = 12345
+Configuration.secret_key = "test_"
 
 
 @user.message(CommandStart())
